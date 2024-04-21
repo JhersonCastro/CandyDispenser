@@ -1,7 +1,6 @@
 #pragma once
-struct Candy
+typedef struct
 {
 	char* name;
 	int price;
-};
-
+}Candy;

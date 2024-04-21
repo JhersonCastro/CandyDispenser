@@ -1,10 +1,11 @@
 #pragma once
 #ifndef NODE_H
-#define NODE_h
+#define NODE_H
 typedef struct node {
 	void* data;
 	struct node* next;
 }Node;
-Node* createNode(void* data);
+
+void initNode(Node* node, void* data);
 
 #endif

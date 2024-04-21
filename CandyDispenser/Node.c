@@ -1,9 +1,9 @@
 #include "Node.h"
+#include <stddef.h> 
 
-Node* createNode(void* data) {
-
-	Node* newNode;
-
+void initNode(Node* node, void* data) {
+	if (node != NULL) {
+		node->data = data;
+		node->next = NULL;
+	}
 }
-
-

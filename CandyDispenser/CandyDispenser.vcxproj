@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Candy.c" />
     <ClCompile Include="CandyMachine.c" />
+    <ClCompile Include="Coin.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="Node.c" />
@@ -28,9 +30,11 @@
   <ItemGroup>
     <ClInclude Include="Candy.h" />
     <ClInclude Include="CandyMachine.h" />
+    <ClInclude Include="Coin.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
